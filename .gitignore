@@ -1,4 +1,12 @@
 
 *.db
 *.opendb
-30-days-code/.vs/30-days-code/v15/.suo
+*.suo
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.tlog
+*.log
+*.idb
+*.ipch
