@@ -10,3 +10,5 @@
 *.log
 *.idb
 *.ipch
+*.db-shm
+*.db-wal
