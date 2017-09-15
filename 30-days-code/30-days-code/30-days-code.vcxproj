@@ -23,7 +23,7 @@
     <ProjectGuid>{4BBBB35C-3839-43BB-8EC0-7A4EE24CD310}</ProjectGuid>
     <RootNamespace>My30dayscode</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
-    <ProjectName>Day-1</ProjectName>
+    <ProjectName>Day-0</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
