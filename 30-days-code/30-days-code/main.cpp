@@ -9,30 +9,26 @@ int main() {
 	string s = "HackerRank ";
 
 	// Declare second integer, double, and String variables.
-	int i2;
-	double d2;
-	string s2;
-
-	// Read and save an integer, double, and String to your variables.
+	int i_c;
+	double d_c;
+	string s_c;
 	string tmp;
+	// Read and savean integer, double, and String to your variables.
 
 	getline(cin, tmp);
-	i2 = stoi(tmp);
-
+	i_c = stoi(tmp);
 	getline(cin, tmp);
-	d2 = stod(tmp);
-
-	getline(cin, s2);
+	d_c = stod(tmp);
+	getline(cin, s_c);
+	// Note: If you have trouble reading the entire string, please go back and review the Tutorial closely.
 
 	// Print the sum of both integer variables on a new line.
-	printf("%i\n", i + i2);
-
+	printf("%i\n", i + i_c);
 	// Print the sum of the double variables on a new line.
-	printf("%.1f\n", d + d2);
-
+	printf("%.1f\n", d + d_c);
 	// Concatenate and print the String variables on a new line
 	// The 's' variable above should be printed first.
-	cout << s + s2 << endl;
+	cout << s + s_c << endl;
 
 	return 0;
 }
